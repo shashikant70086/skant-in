@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — YOUR_NAME // PORTFOLIO</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen flex flex-col relative selection:bg-primary selection:text-white page-enter">
+    <div class="grain-overlay"></div>
+    <div class="blueprint-grid-bg"></div>
+
+    <header class="fixed top-0 w-full z-40 bg-background-sand/95 backdrop-blur-sm border-b border-blueprint-navy h-16 flex items-center px-6 md:px-12 justify-between">
+        <div class="flex items-center gap-4">
+            <span class="material-symbols-outlined text-text-main">terminal</span>
+            <h2 class="text-text-main text-lg font-bold tracking-tighter uppercase">YOUR_NAME // PORTFOLIO</h2>
+        </div>
+        <nav class="hidden md:flex gap-8 items-center h-full">
+            <a href="index.html" class="nav-link text-sm font-bold tracking-widest text-blueprint-navy hover:text-primary transition-colors uppercase">HOME</a>
+            <a href="about.html" class="nav-link text-sm font-bold tracking-widest text-blueprint-navy hover:text-primary transition-colors uppercase">ABOUT</a>
+            <a href="projects.html" class="nav-link text-sm font-bold tracking-widest text-blueprint-navy hover:text-primary transition-colors uppercase">PROJECTS</a>
+        </nav>
+        <div class="flex items-center gap-4 text-primary">
+            <span class="text-xs font-bold tracking-widest hidden sm:block animate-pulse">STATUS: ONLINE</span>
+        </div>
+    </header>
+
+    <main class="relative z-10 flex-grow pt-24 pb-12 px-6 md:px-12 flex flex-col w-full max-w-[1400px] mx-auto">
+        <div class="mb-8 border-l-4 border-primary pl-4">
+            <h1 class="text-3xl font-bold uppercase tracking-tight text-text-main">About Me</h1>
+            <p class="text-blueprint-navy text-sm font-bold">&gt; PROFESSIONAL PROFILE.<br>&gt; CREATIVE DEVELOPER.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-px bg-blueprint-navy border border-blueprint-navy">
+            <section class="bg-surface-bone p-8 flex flex-col group hover:bg-background-sand transition-colors relative">
+                <header class="mb-6 flex items-center justify-between">
+                    <h3 class="text-xl font-bold tracking-tight">Q1 // BIO</h3>
+                    <span class="material-symbols-outlined text-blueprint-navy group-hover:text-primary">fingerprint</span>
+                </header>
+                <div class="space-y-4 text-sm leading-relaxed custom-scrollbar overflow-y-auto">
+                    <p class="border-l-2 border-primary pl-4 py-1 font-medium">
+                        Your name here. Brief introduction about who you are and what you do.
+                    </p>
+                    <p>
+                        Tell your story here. Share your passion, your mission, and what drives you. Include your background, experience, and what makes you unique.
+                    </p>
+                </div>
+            </section>
+
+            <section class="bg-surface-bone p-8 flex flex-col group hover:bg-background-sand transition-colors relative">
+                <header class="mb-6 flex items-center justify-between">
+                    <h3 class="text-xl font-bold tracking-tight">Q2 // TECH_STACK</h3>
+                    <span class="material-symbols-outlined text-blueprint-navy group-hover:text-primary">memory</span>
+                </header>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-xs uppercase tracking-widest text-blueprint-navy mb-3 border-b border-blueprint-navy/30 pb-1">Languages</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 text-xs border border-blueprint-navy">JavaScript</span>
+                            <span class="px-2 py-1 text-xs border border-blueprint-navy">Python</span>
+                            <span class="px-2 py-1 text-xs border border-blueprint-navy">React</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-xs uppercase tracking-widest text-blueprint-navy mb-3 border-b border-blueprint-navy/30 pb-1">Tools & Frameworks</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 text-xs border border-blueprint-navy">Node.js</span>
+                            <span class="px-2 py-1 text-xs border border-blueprint-navy">Tailwind CSS</span>
+                            <span class="px-2 py-1 text-xs border border-blueprint-navy">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-surface-bone p-8 flex flex-col group hover:bg-background-sand transition-colors relative">
+                <header class="mb-6 flex items-center justify-between">
+                    <h3 class="text-xl font-bold tracking-tight">Q3 // EXPERTISE</h3>
+                    <span class="material-symbols-outlined text-blueprint-navy group-hover:text-primary">code_blocks</span>
+                </header>
+                <div class="grid grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="text-xs uppercase tracking-widest text-blueprint-navy mb-3 border-b border-blueprint-navy/30 pb-1">Frontend</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary"></span> Web Design</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary"></span> UI/UX</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xs uppercase tracking-widest text-blueprint-navy mb-3 border-b border-blueprint-navy/30 pb-1">Backend</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary"></span> API Development</li>
+                            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary"></span> Database Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-surface-bone p-8 flex flex-col group hover:bg-background-sand transition-colors relative">
+                <header class="mb-6 flex items-center justify-between">
+                    <h3 class="text-xl font-bold tracking-tight">Q4 // ACHIEVEMENTS</h3>
+                    <span class="material-symbols-outlined text-blueprint-navy group-hover:text-primary">article</span>
+                </header>
+                <div class="space-y-4">
+                    <div class="p-3 border border-blueprint-navy/30 bg-white/50">
+                        <span class="text-xs font-bold text-primary block mb-1">ACHIEVEMENT #1</span>
+                        <p class="text-xs text-blueprint-navy">Description of your first major achievement or contribution.</p>
+                    </div>
+                    <div class="p-3 border border-blueprint-navy/30 bg-white/50">
+                        <span class="text-xs font-bold text-primary block mb-1">ACHIEVEMENT #2</span>
+                        <p class="text-xs text-blueprint-navy">Description of your second major achievement or contribution.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="fixed bottom-0 w-full bg-surface-bone border-t border-blueprint-navy z-40">
+        <div class="flex items-center px-4 py-1 h-8">
+            <span class="material-symbols-outlined text-primary text-xs mr-3 animate-pulse">radio_button_checked</span>
+            <div class="overflow-hidden w-full relative h-full flex items-center">
+                <div class="text-[10px] font-mono tracking-widest text-blueprint-navy whitespace-nowrap overflow-hidden">
+                    SYSTEM_ONLINE // BUILD_2026 // LATENCY: OPTIMAL // STACK: HTML, TAILWIND, JAVASCRIPT // IDENTITY: YOUR_NAME
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
